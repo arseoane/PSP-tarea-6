@@ -20,10 +20,4 @@ public class Profesor extends Thread {
         }
     }
 
-    public static void main(String[] args) {
-        Profesor profe = new Profesor("Damián", 3);
-        Profesor profe2 = new Profesor("Diego", 3);
-        profe.start();
-        profe2.start();
-    }
 }

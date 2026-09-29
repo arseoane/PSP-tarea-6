@@ -20,10 +20,4 @@ public class Profesor2 implements Runnable {
         }
     }
 
-    public static void main(String[] args) {
-        Profesor2 profe = new Profesor2("Manuel", 3);
-        Profesor2 profe2 = new Profesor2("Juan", 3);
-        profe.run();
-        profe2.run();
-    }
 }
